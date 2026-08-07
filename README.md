@@ -76,6 +76,6 @@ Box plots with individual points for group comparisons, paired line plots for re
 
 ## Author
 
-Built by [Paul Crinigan, AI Apps API](https://www.aiappsapi.com). Part of the free science tools collection at [learnhowtoscience.com](https://www.learnhowtoscience.com).
+Built by [Paul Crinigan, AI Apps API](https://www.aiappsapi.com). Full documentation lives on the [statsage page](https://www.learnhowtoscience.com/ai-science-tools/statsage.php), part of the [free AI science tools collection](https://www.learnhowtoscience.com/ai-science-tools/) at learnhowtoscience.com.
 
 MIT licensed.
