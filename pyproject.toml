@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "statsage"
+version = "0.1.0"
+description = "The AI statistician: picks the right statistical test, checks assumptions, runs it, and writes the methods text."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Paul Crinigan", email = "paul@aiappsapi.com" }]
+keywords = ["statistics", "science", "research", "t-test", "anova", "assumption-checks", "publication"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "numpy>=1.22",
+    "pandas>=1.4",
+    "scipy>=1.11",
+    "matplotlib>=3.5",
+]
+
+[project.optional-dependencies]
+excel = ["openpyxl>=3.0"]
+
+[project.urls]
+Homepage = "https://www.learnhowtoscience.com"
+Author = "https://www.aiappsapi.com"
+
+[project.scripts]
+statsage = "statsage.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["statsage*"]
